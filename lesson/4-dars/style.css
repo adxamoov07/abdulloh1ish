@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b1{
+    width: 50%;
+    height: 80vh;
+    background-image:url(./abdullo.jpg);
+    background-size: 100% 100%;
+    background-color: aqua;
+  
+    
+}
+.h1{
+    padding-top: 200px;
+    padding-left: 70px;
+    color: rgb(3, 13, 64);
+ 
+}
+.h1 .b7{
+    padding-left: 170px; 
+     
+}
+.vg{
+    padding-left: 400px;
+    padding-top: 0px;
+}
+h2{
+    padding-left: 250px;
+    padding-top: 200px;
+    font-size: 27px;
+    background-color: rgba(0, 0, 255, 0);
+    color: rgba(0, 0, 0, 0.507);
+     
+}

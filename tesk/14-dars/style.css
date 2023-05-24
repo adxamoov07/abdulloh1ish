@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --main-color:#fff;
+    --btn-style: 6px 20px;
+    --btn-border-radius: 7px;
+    --btn-bg-linear-gradient:red,blue;
+    --btn-color:red;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: dodgerblue;
+    padding: 0 6%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header  div a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    position: relative;
+}
+header div a::after{
+    transition: 1s;
+    width: 0;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    content: ''; 
+}
+header div a:hover::after{
+    width: 100%;
+}
+a:hover{
+    padding: 7px 15px;
+    background-color: blue;
+    transition: .5s;
+    color: red
+    ;
+}
+header div button{
+    padding: var(--btn-style);
+    border-radius: var(--btn-border-radius);
+    background-color: var(--btn-bg-linear-gradient);
+    color: var(--btn-color);
+}
+#banner{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top right, blue, violet);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+#banner h1{
+    font-size: 5vw;
+    color: var(--main-color);
+}
+#banner p{
+    width: 70%;
+    color: var(--main-color);
+    line-height: 1.7;
+    margin: 50px 0;
+}
+#banner button{
+    padding: var(--btn-style);
+    border-radius: var(--btn-border-radius);
+    background-color: var(--btn-bg-linear-gradient);
+    color: var(--btn-color);
+}

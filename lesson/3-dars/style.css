@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./img/photo_2023-04-14_16-03-17.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50% 100%;
+}
+.home header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+.home header h3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #222;
+}
+.home header .header_links a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.home header .header_links a:hover{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+ .home .home_body{
+    width: 100%;
+    height: 78vh;
+    display: flex;
+ }
+.home .home_body .home_body_left{
+    width: 50%;
+    height: 100%;
+    padding: 100px 0 0 100px;
+}
+.home .home_body .home_body_right{
+    width: 50%;
+    height: 100%;
+}
+.home .home_body .home_body_left h1{
+    width: 50%;
+    margin-bottom: 30px;
+}
+.home .home_body .home_body_left h1 span{
+    color: aqua;
+}
+.home .home_body .home_body_left p{
+    width: 70%;
+    margin-bottom: 30px;
+}
+.home .home_body_right{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.home .home_body_right button{
+    padding: 25px 22px;
+    color: #fff;
+    background-color: dodgerblue;
+    border: none;
+}
+.home .home_body_right button i{
+    margin-left: 40px;
+}
+

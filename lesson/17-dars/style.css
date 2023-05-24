@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 20px;
+    position: absolute;
+    /* animation-name nomi */
+    animation-name: change;
+    /* animatsiya davomiligi */
+    animation-duration: 3s;
+    /* animatsiya kutish vaqti */
+    animation-delay: 0s;
+    /* animatsiyalar soni    raqam yoki   infinite cheksiz */
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: backwards ; */
+    /* animation-fill-mode: forwards; */
+    animation-fill-mode: both;
+    /* animatsiya vaqt turlari      ease     ease-in    ease=in-out    ease-out    liner */
+    animation-timing-function: linear ;
+    /* animatsiya yonalishi     alternate    alternate-reverse */
+    animation-direction: alternate;
+
+}
+.box:hover{
+    animation-play-state: paused;
+}
+@keyframes change {
+    from{
+        background-color: red;
+        left: 200px;
+    }
+    to{
+        background-color: blue;
+        left: 90%;
+    }
+}

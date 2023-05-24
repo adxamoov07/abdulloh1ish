@@ -1,0 +1,19 @@
+.box{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient( to bottom ,dodgerblue 28vh, red 3vh, aliceblue 28vh,red 3vh,blue 28vh);
+}
+.doira {
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    border-radius: 50%;
+
+}
+.doira:hover{
+    border-radius: 50%;
+    transition: 60s;
+    transform: rotate(99360deg);
+    background-image: conic-gradient( red , black);
+
+}

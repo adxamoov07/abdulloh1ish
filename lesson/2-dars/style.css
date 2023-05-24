@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contanier{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    background-image: url(../2-dars/images/7.\ Бабочка.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.card{
+    width: 70%;
+    height: 70vh;
+    background-color: green;
+    color: red;
+    padding: 30px;
+    margin: 40px;
+}
+.card p{
+    padding: 15px 15px 15px 10px;
+}
+.card:hover h2{
+    background-color: rgba(0, 0, 34, 0.475);
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.card:hover{
+    width: 100%;
+    height: 100vh;
+    color: rgb(22, 172, 222);
+    background-image: url(../2-dars/images/7.\ Бабочка.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 6s;
+}
+.card:hover p{
+    background-color: rgba(0, 0, 34, 0.471);
+}
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 1.1s;
+}
+.square:hover{
+    background-color: green;
+}
+.b1{
+    width: 100%;
+    height: 50vh;
+    background-color: beige;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.b1 i{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+.fa-telegram{
+
+    color: dodgerblue;
+}
+.fa-telegram:hover{
+    color: #fff;
+    background-color: dodgerblue;
+}
+.fa-facebook{
+    
+    color: blue;
+}
+.fa-facebook:hover{
+    color: #fff;
+    background-color: blue;
+}
+.fa-youtube{
+    
+    color: red;
+}
+.fa-youtube:hover{
+    color: #fff;
+    background-color: red;
+}
+.fa-twitter{
+    
+    color: aqua;
+}
+.fa-twitter:hover{
+    color: #fff;
+    background-color: aqua;
+}
+
+

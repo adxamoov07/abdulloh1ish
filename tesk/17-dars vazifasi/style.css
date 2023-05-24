@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-color: #444;
+}
+.item{
+    width: 100%;
+    height: 23.5%;
+    background-color: transparent;
+}
+.item img{
+    width: 400px;
+    height: 160px;
+    margin-right: 10%;
+    position: absolute;
+    animation: red 12s linear 0s infinite alternate forwards;
+}
+@keyframes red {
+   from {
+      left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+.item1{
+    width: 100%;
+    height: 2%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    width: 150px;
+    height: 100%;
+    background-color: white;
+}
+.item2{
+    width: 100%;
+    height: 23%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    position: relative;
+}
+.b1{
+    width: 40px;
+    height: 100px;
+    background-color: #222;
+    border-radius: 3px;
+   
+  
+}
+.bb1{
+    width: 7px;
+    height: 100px;
+    background-color: black;
+}
+.v1{
+    width: 100%;
+    height: 33%;
+    border-radius: 50%;
+    animation: rred 4s linear 0s 1 alternate forwards;
+}
+@keyframes rred {
+    0% {
+        background-color: red;
+    }
+    100%{
+        background-color: #111;
+    }
+}
+.v2{
+    width: 100%;
+    height: 33%;
+    border-radius: 50%;
+    animation: rredd  2s linear 5s 1 alternate forwards;
+}
+@keyframes rredd {
+    0% {
+        background-color: yellow;
+    }
+    100%{
+        background-color: #111;
+    }
+}
+.v3{
+    width: 100%;
+    height: 33%;
+    border-radius: 50%;
+    animation: rreed 4s linear 7s 1 alternate forwards;
+}
+@keyframes rreed {
+    0% {
+        background-color: green;
+    }
+    100%{
+        background-color: #111;
+    }
+}
+.item3{
+    width: 100%;
+    height: 3%;
+    background-color: white;
+}
+.item4{
+    width: 100%;
+    height: 23%;
+    background-color: transparent;
+}
+.item4 img{
+    width: 400px;
+    height: 160px;
+    position: absolute;
+    animation: reed 12s linear 0s infinite alternate forwards;
+} 
+
+@keyframes reed {
+    from {
+        right: 0%;
+    }
+    to {
+        right: 80%;
+    }
+}
+.item5{
+    width: 100%;
+    height: 2%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item6{
+    width: 100%;
+    height: 23.5%;
+    background-color: transparent;
+}

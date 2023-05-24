@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.banner h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+.banner p{
+    font-size: 20px;
+    line-height: 1.6;
+}
+.home{
+    width: 100vw;
+    height: 80vh;
+}
+.item1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+.b1{
+    margin-left: 110px;
+    margin-top: 70px;
+}
+.b1 h2{
+    margin-bottom: 10px;
+    color: #444;
+}
+.b1 input{
+    padding: 25px 430px 20px 10px;
+  
+}
+.b2{
+    margin-left: 90px;
+    margin-top: 70px;
+}
+.b2 h2{
+    margin-bottom: 10px;
+    color: #444;
+}
+.b2 input{
+    padding: 25px 430px 20px 10px;
+}
+.item2{
+    width: 100%;
+    height: 70%;
+   
+}
+.b3{
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.b3 h2{
+    margin-bottom: 10px;
+    color: #444;
+}
+.b3 input{
+    padding: 30px 1110px 250px 30px;
+}
+.home10{
+    width: 100vw;
+    height: 60vh;
+    background-color: dodgerblue;
+    background-image: url(./Rectangle\ 36.png);
+}
+.cardd{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    background-color: rgb(37, 29, 6);
+}
+.card1{
+    width: 27.5%;
+    height: 100%;
+    padding: 70px 10px 0 50px;
+    color: #fff;
+} 
+.card1 p{
+    line-height: 1.1;
+    margin-top: 15px;
+}
+.card2{
+    width: 15%;
+    height: 100%;
+    padding: 70px 0 0 20px;
+    color: #fff;
+}
+.card2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.card5{
+    width: 27.5%;
+    height: 100%;
+    color: #fff;
+    padding: 70px 0 0 20px;
+   
+}
+.card55{
+    width: 90%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+    border-radius: 7px;
+}
+.card5 p{
+    margin: 10px 0;
+    line-height: 1.3;
+}
+
+.card55 input{
+    border: none;
+    font-size: 16px;
+}
+
+.card555{
+    padding: 12px 20px;
+    border: none;
+    background-color: rgba(92, 59, 47, 0.967);
+    color: #fff;
+    border-radius: 3px;
+}
+.box{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(37, 29, 6) ;
+    border: 1.5px solid rgb(134, 123, 123);
+
+}
+.box h2{
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}

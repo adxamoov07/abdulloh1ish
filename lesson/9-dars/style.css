@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,1;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Ysabeau:ital,wght@0,1;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Ysabeau:ital,wght@0,1;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Vina+Sans&family=Ysabeau:ital,wght@0,1;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+h1{
+    font-family:Ysabeau;
+}
+h2{
+    font-family: Ysabeau;
+}
+h3{
+    font-family: Oswald;
+}
+h4{
+    font-family: Oswald;
+}
+.b1{
+    font-family: 'Vina Sans', cursive;
+}
+@font-face {
+    font-family: braahone;
+    src: url(./fonts/BraahOne-Regular.ttf);
+
+}
+@font-face {
+    font-family: sigmar;
+    src: url(./fonts/Sigmar-Regular.ttf);
+}
+p{
+    font-size: 40px;
+    font-family: sigmar;
+}
+.b1{
+    font-family: braahone;
+}
+

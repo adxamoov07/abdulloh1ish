@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 350px;
+    height: 650px;
+    border: 5px solid black;
+    border-radius: 23px;
+    overflow: hidden;
+    background-image: url(./photo_2023-05-23_16-55-48.jpg);
+    background-size: 100% 100%;
+    box-shadow: 0 0 0 10px rgb(61, 42, 6);
+}
+.box h6{
+    margin-right: 200px;
+}
+.box{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.box1{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black ;
+    position: absolute;
+    border-radius: 50%;
+    bottom: .1px;
+}
+.boox{
+    width: 8px;
+    height: 8px;
+    margin-top: 10px;
+    background-color: #222;
+    border-radius: 50%;
+}
+.simple{
+    width: 60px;
+    height: 100%;
+    display: flex;
+}
+.wifi{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    gap: 3px;
+}
+.wifi1{
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 1px;
+    margin-top: 15px;
+}
+.wifi2{
+    width: 2px;
+    height: 5px;
+    background-color: white;
+    border-radius: 1px;
+    margin-top: 12px;
+}
+.wifi3{
+    width: 2px;
+    height: 8px;
+    background-color: white;
+    border-radius: 1px;
+    margin-top: 9px;
+}
+.wifi4{
+    width: 2px;
+    height: 11px;
+    background-color: white;
+    border-radius: 1px;
+    margin-top: 6px;
+}
+.wifi5{
+    width: 2px;
+    height: 14px;
+    background-color: white;
+    border-radius: 1px;
+    margin-top: 3px;
+}
+.batarey{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btaa{
+    width: 80%;
+    height: 70%;
+    background-color: rgba(30, 143, 255, 0.258);
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+.btaa h6{
+    font-size: 9px;
+    margin-left: 5px;
+}
+.btta{
+    width: 3px;
+    height: 7px;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+.oclok{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.oclok i{
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #fff;
+   
+}
+.oclok h1{
+    font-size: 60px;
+    font-weight: 100;
+}
+.oclok h5{
+    margin-top: 10px;
+    font-weight: 80;
+}
+.time{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 5%;
+    margin-top: 270px;
+}
+.time i{
+    font-size: 20px;
+}
+.home1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bold{
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.maxx1{
+    width: 70px;
+    height: 95%;
+    border-radius: 10px;
+    animation: rred 2s linear 0s 1 alternate forwards;
+}
+@keyframes rred {
+    from{
+        background-color: red;
+
+    }
+    to{
+       background-color: green;
+    }
+}
+.maxx2{
+    width: 70px;
+    height: 95%;
+    border-radius: 10px;
+    animation: rred2 2s linear 2s 1 alternate forwards;
+}
+@keyframes rred2 {
+    from{
+       background-color: chocolate;
+
+    }
+    to{
+        background-color: green;
+    }
+}
+.maxx3{
+    width: 70px;
+    height: 95%;
+    border-radius: 10px;
+    animation: rred3 2s linear 4s 1 alternate forwards;
+}
+@keyframes rred3 {
+    from{
+        background-color: orange;
+
+    }
+    to{
+        background-color: green;
+    }
+}
+.maxx4{
+    width: 70px;
+    height: 95%;
+    border-radius: 10px;
+    animation: rred4 2s linear 6s 1 alternate forwards;
+}
+@keyframes rred4 {
+    from{
+        background-color: #fff;
+
+    }
+    to{
+        background-color: green;
+    }
+}
+.maxx5{
+    width: 70px;
+    height: 95%;
+    border-radius: 10px;
+    animation: rred5 2s linear 8s 1 alternate forwards;
+}
+@keyframes rred5 {
+    from{
+        background-color: #fff;
+
+    }
+    to{
+        background-color: green;
+    }
+}
+.bold1{
+    width: 60px;
+    height: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 3px solid black;
+    animation: rred55 2s linear 10s 1 alternate forwards;
+}
+@keyframes rred55 {
+    from{
+        background-color: #fff;
+
+    }
+    to{
+        background-color: green;
+    }
+}
